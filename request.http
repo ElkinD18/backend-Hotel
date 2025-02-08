@@ -1,0 +1,15 @@
+### Insertar un nuevo cliente
+POST http://127.0.0.1:5000/clients
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "address": "123 Main St",
+    "phone": "555-1234",
+    "email": "john.doe@example.com",
+    "room_preferences": "Non-smoking, King bed",
+    "special_requirements": "Late check-in"
+}
+
+### Obtener la lista de clientes
+GET http://127.0.0.1:5000/clients
